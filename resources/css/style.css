@@ -85,7 +85,7 @@ nav li {
 .inforightbox {
     width: 40%;
     margin-left: 24px;
-    
+    padding-top: 16px;
     justify-content: space-between;
     float: right;
     border-style: solid;
@@ -95,21 +95,43 @@ nav li {
 
 .inforight {
     display: flex;
-    
+    padding-top: 16px;
+    padding-bottom: 16px;
     height: auto;
     width: 100%;
 }
 
-
-.inforight img {
+.holdimg {
     width: 35%;
-    max-width: 150px;
-    height: auto;
-    padding: 16px;
-
+}
+ .iimg {
+    width: 100%;
+    
+    padding-top: 100%;  
+    margin-left: 24px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lime;
+   
 }
 
+.orientationimg {
+    background-image: url(../images/information-orientation.jpg);
+    
+}
 
+.campusimg {
+    background-image: url(../images/information-campus.jpg);
+}
+
+.guestimg {
+    background-image: url(../images/information-guest-lecture.jpg);
+}
+.righttext{
+    width: 65%;
+    margin-left: 24px;
+}
 .righttext h2, .righttext a{
     text-align: left;
     width: 100%;
@@ -220,3 +242,4 @@ footer ul {
 footer li {
         padding: 8px;
     }
+
